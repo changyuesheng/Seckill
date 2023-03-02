@@ -1,0 +1,34 @@
+version: "2"
+services:
+  mysql-service:
+    image: mysql
+    ports:
+      - "3307:3306"
+    restart: 'always'
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: "123456"
+  redis-service:
+    image: redis
+    command: redis-server --requirepass 123456
+    ports:
+      - "6379:6379"
+    restart: 'always'
+  seckill:
+    restart: 'always'
+    image: registry
+    ports:
+      - "20080:20080"
+    links:
+      - mysql-service:mysql
+      - redis-service:redis
+    depends_on:
+      - postgres-account
+      - redis-account
+
+
+
+# set session sql_mode='NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+# set global sql_mode='NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+#  docker run -d -e MYSQL_ROOT_PASSWORD=123456 --name mysql -p 3306:3306 mysql

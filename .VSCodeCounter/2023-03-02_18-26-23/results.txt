@@ -1,0 +1,76 @@
+Date : 2023-03-02 18:26:23
+Directory : d:\code\seckill\demo
+Total : 35 files,  1509 codes, 243 comments, 253 blanks, all 2005 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Go               |         28 |      1,160 |        224 |        225 |      1,609 |
+| Go Checksum File |          1 |        225 |          0 |          1 |        226 |
+| Go Module File   |          1 |         53 |          0 |          6 |         59 |
+| YAML             |          1 |         27 |          3 |          4 |         34 |
+| Ini              |          1 |         21 |          0 |          5 |         26 |
+| Docker           |          1 |         15 |         16 |         10 |         41 |
+| Log              |          2 |          8 |          0 |          2 |         10 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                   | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                      |         35 |      1,509 |        243 |        253 |      2,005 |
+| . (Files)                                              |          6 |        365 |         19 |         30 |        414 |
+| config                                                 |          1 |         47 |          7 |          9 |         63 |
+| data                                                   |          4 |        149 |          9 |         34 |        192 |
+| handler                                                |          4 |        206 |          7 |         29 |        242 |
+| logs                                                   |          2 |          8 |          0 |          2 |         10 |
+| middlerware                                            |          4 |        191 |        138 |         40 |        369 |
+| model                                                  |          5 |         75 |          4 |         20 |         99 |
+| repository                                             |          3 |        220 |         40 |         37 |        297 |
+| router                                                 |          1 |         28 |          6 |          5 |         39 |
+| service                                                |          3 |        162 |          6 |         28 |        196 |
+| utils                                                  |          2 |         58 |          7 |         19 |         84 |
++--------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                               | language         | code       | comment    | blank      | total      |
++--------------------------------------------------------+------------------+------------+------------+------------+------------+
+| d:\code\seckill\demo\Docker-compose.yaml               | YAML             |         27 |          3 |          4 |         34 |
+| d:\code\seckill\demo\Dockerfile                        | Docker           |         15 |         16 |         10 |         41 |
+| d:\code\seckill\demo\config.ini                        | Ini              |         21 |          0 |          5 |         26 |
+| d:\code\seckill\demo\config\conf.go                    | Go               |         47 |          7 |          9 |         63 |
+| d:\code\seckill\demo\data\data_source.go               | Go               |         36 |          3 |          9 |         48 |
+| d:\code\seckill\demo\data\mysql.go                     | Go               |         30 |          3 |          8 |         41 |
+| d:\code\seckill\demo\data\rabbitmq.go                  | Go               |         55 |          1 |          7 |         63 |
+| d:\code\seckill\demo\data\redis.go                     | Go               |         28 |          2 |         10 |         40 |
+| d:\code\seckill\demo\go.mod                            | Go Module File   |         53 |          0 |          6 |         59 |
+| d:\code\seckill\demo\go.sum                            | Go Checksum File |        225 |          0 |          1 |        226 |
+| d:\code\seckill\demo\handler\goods.go                  | Go               |        103 |          4 |          8 |        115 |
+| d:\code\seckill\demo\handler\handler.go                | Go               |         28 |          0 |          8 |         36 |
+| d:\code\seckill\demo\handler\test.go                   | Go               |          9 |          0 |          5 |         14 |
+| d:\code\seckill\demo\handler\user.go                   | Go               |         66 |          3 |          8 |         77 |
+| d:\code\seckill\demo\logs\log.log                      | Log              |          3 |          0 |          1 |          4 |
+| d:\code\seckill\demo\logs\log.log20230301.log          | Log              |          5 |          0 |          1 |          6 |
+| d:\code\seckill\demo\middlerware\cors.go               | Go               |         18 |          2 |          4 |         24 |
+| d:\code\seckill\demo\middlerware\jwt.go                | Go               |         93 |          3 |          8 |        104 |
+| d:\code\seckill\demo\middlerware\logger.go             | Go               |         79 |          1 |          8 |         88 |
+| d:\code\seckill\demo\middlerware\timeout.go            | Go               |          1 |        132 |         20 |        153 |
+| d:\code\seckill\demo\model\goods.go                    | Go               |         11 |          0 |          3 |         14 |
+| d:\code\seckill\demo\model\interface.go                | Go               |         42 |          2 |          9 |         53 |
+| d:\code\seckill\demo\model\order.go                    | Go               |          9 |          2 |          3 |         14 |
+| d:\code\seckill\demo\model\token.go                    | Go               |          4 |          0 |          2 |          6 |
+| d:\code\seckill\demo\model\user.go                     | Go               |          9 |          0 |          3 |         12 |
+| d:\code\seckill\demo\repository\mysql_repository.go    | Go               |         78 |          0 |         12 |         90 |
+| d:\code\seckill\demo\repository\rabbitmq_repository.go | Go               |         41 |         23 |         13 |         77 |
+| d:\code\seckill\demo\repository\redis_repository.go    | Go               |        101 |         17 |         12 |        130 |
+| d:\code\seckill\demo\router\router.go                  | Go               |         28 |          6 |          5 |         39 |
+| d:\code\seckill\demo\server.go                         | Go               |         24 |          0 |          4 |         28 |
+| d:\code\seckill\demo\service\goods_service.go          | Go               |         87 |          3 |         12 |        102 |
+| d:\code\seckill\demo\service\token_service.go          | Go               |         22 |          0 |          6 |         28 |
+| d:\code\seckill\demo\service\user_service.go           | Go               |         53 |          3 |         10 |         66 |
+| d:\code\seckill\demo\utils\errormsg.go                 | Go               |         28 |          3 |          7 |         38 |
+| d:\code\seckill\demo\utils\password.go                 | Go               |         30 |          4 |         12 |         46 |
+| Total                                                  |                  |      1,509 |        243 |        253 |      2,005 |
++--------------------------------------------------------+------------------+------------+------------+------------+------------+

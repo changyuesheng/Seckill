@@ -1,0 +1,37 @@
+"filename", "language", "Ini", "Go", "Docker", "YAML", "Log", "Go Module File", "Go Checksum File", "comment", "blank", "total"
+"d:\code\seckill\demo\Docker-compose.yaml", "YAML", 0, 0, 0, 27, 0, 0, 0, 3, 4, 34
+"d:\code\seckill\demo\Dockerfile", "Docker", 0, 0, 15, 0, 0, 0, 0, 16, 10, 41
+"d:\code\seckill\demo\config.ini", "Ini", 20, 0, 0, 0, 0, 0, 0, 0, 5, 25
+"d:\code\seckill\demo\config\conf.go", "Go", 0, 46, 0, 0, 0, 0, 0, 7, 11, 64
+"d:\code\seckill\demo\data\data_source.go", "Go", 0, 35, 0, 0, 0, 0, 0, 5, 9, 49
+"d:\code\seckill\demo\data\mysql.go", "Go", 0, 30, 0, 0, 0, 0, 0, 3, 8, 41
+"d:\code\seckill\demo\data\rabbitmq.go", "Go", 0, 24, 0, 0, 0, 0, 0, 0, 5, 29
+"d:\code\seckill\demo\data\redis.go", "Go", 0, 28, 0, 0, 0, 0, 0, 2, 10, 40
+"d:\code\seckill\demo\go.mod", "Go Module File", 0, 0, 0, 0, 0, 53, 0, 0, 6, 59
+"d:\code\seckill\demo\go.sum", "Go Checksum File", 0, 0, 0, 0, 0, 0, 225, 0, 1, 226
+"d:\code\seckill\demo\handler\goods.go", "Go", 0, 103, 0, 0, 0, 0, 0, 4, 8, 115
+"d:\code\seckill\demo\handler\handler.go", "Go", 0, 26, 0, 0, 0, 0, 0, 0, 6, 32
+"d:\code\seckill\demo\handler\test.go", "Go", 0, 9, 0, 0, 0, 0, 0, 0, 5, 14
+"d:\code\seckill\demo\handler\user.go", "Go", 0, 66, 0, 0, 0, 0, 0, 3, 8, 77
+"d:\code\seckill\demo\logs\log.log", "Log", 0, 0, 0, 0, 3, 0, 0, 0, 1, 4
+"d:\code\seckill\demo\logs\log.log20230301.log", "Log", 0, 0, 0, 0, 5, 0, 0, 0, 1, 6
+"d:\code\seckill\demo\middlerware\cors.go", "Go", 0, 18, 0, 0, 0, 0, 0, 2, 4, 24
+"d:\code\seckill\demo\middlerware\jwt.go", "Go", 0, 93, 0, 0, 0, 0, 0, 3, 8, 104
+"d:\code\seckill\demo\middlerware\logger.go", "Go", 0, 79, 0, 0, 0, 0, 0, 1, 8, 88
+"d:\code\seckill\demo\middlerware\timeout.go", "Go", 0, 1, 0, 0, 0, 0, 0, 132, 20, 153
+"d:\code\seckill\demo\model\goods.go", "Go", 0, 11, 0, 0, 0, 0, 0, 0, 3, 14
+"d:\code\seckill\demo\model\interface.go", "Go", 0, 37, 0, 0, 0, 0, 0, 2, 9, 48
+"d:\code\seckill\demo\model\order.go", "Go", 0, 11, 0, 0, 0, 0, 0, 0, 3, 14
+"d:\code\seckill\demo\model\token.go", "Go", 0, 4, 0, 0, 0, 0, 0, 0, 2, 6
+"d:\code\seckill\demo\model\user.go", "Go", 0, 9, 0, 0, 0, 0, 0, 0, 3, 12
+"d:\code\seckill\demo\repository\mysql_repository.go", "Go", 0, 78, 0, 0, 0, 0, 0, 0, 12, 90
+"d:\code\seckill\demo\repository\rabbitmq_repository.go", "Go", 0, 13, 0, 0, 0, 0, 0, 0, 5, 18
+"d:\code\seckill\demo\repository\redis_repository.go", "Go", 0, 101, 0, 0, 0, 0, 0, 17, 12, 130
+"d:\code\seckill\demo\router\router.go", "Go", 0, 28, 0, 0, 0, 0, 0, 6, 5, 39
+"d:\code\seckill\demo\server.go", "Go", 0, 24, 0, 0, 0, 0, 0, 0, 4, 28
+"d:\code\seckill\demo\service\goods_service.go", "Go", 0, 57, 0, 0, 0, 0, 0, 4, 9, 70
+"d:\code\seckill\demo\service\token_service.go", "Go", 0, 22, 0, 0, 0, 0, 0, 0, 6, 28
+"d:\code\seckill\demo\service\user_service.go", "Go", 0, 53, 0, 0, 0, 0, 0, 3, 10, 66
+"d:\code\seckill\demo\utils\errormsg.go", "Go", 0, 28, 0, 0, 0, 0, 0, 3, 7, 38
+"d:\code\seckill\demo\utils\password.go", "Go", 0, 30, 0, 0, 0, 0, 0, 4, 12, 46
+"Total", "-", 20, 1064, 15, 27, 8, 53, 225, 220, 240, 1872
